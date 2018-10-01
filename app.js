@@ -12,7 +12,7 @@ const catalogRouter = require('./routes/catalog');
 
 
 //Set up mongoose connection
-const mongoDB = 'mongodb://enz54:Password1@ds215563.mlab.com:15563/abookstore';
+const mongoDB = 'mongodb://ds215563.mlab.com:15563/abookstore';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 const db = mongoose.connection;
